@@ -1,0 +1,131 @@
+/* 
+orchid pink #D3A9AF
+mountbatten pink #95809A
+ultra violet #626290
+champagne pink #E9D1C1
+licorice #0D0106 
+*/
+
+:root {
+    --orchid-pink: #D3A9AF;
+    --mountbatten-pink: #95809A;
+    --ultra-violet: #626290;
+    --champagne-pink: #E9D1C1;
+    --licorice: #0D0106;
+}
+
+body {
+    margin: 0;
+    color: #0D0106;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+}
+
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    /* border: 1px blue solid; */
+
+}
+
+.header-container h1, .header-container h2 {
+    opacity: 0.85;
+    border-radius: 20px;
+    padding: 7px 0;
+}
+
+.header-container h1 {
+    background:  #95809A;
+    font-weight: 900;
+    width: 350px;
+}
+.header-container h2 {
+    background: #D3A9AF;
+    font-weight: 700;
+    width: 650px; 
+
+}
+
+.section-activities {
+    background-color: #E9D1C1;
+}
+
+.section-activities h3 {
+    margin-top: 0;
+    padding-top: 40px ;
+    font-size: 25px;
+    color: #626290;
+    font-style: bold;
+}
+
+.section-activities h4 {
+    color: #626290;
+}
+
+.activities-info {
+    width: 200px;
+}
+
+.section-guide {
+    background: #626290;
+    width: 450px;
+    height: 350px;
+    margin: 25px auto;
+    padding: 0 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px #0D0106;
+}
+
+.guide-item h2, .guide-item h3 {
+    color: #D3A9AF;
+    font-size: 25px;
+}
+
+.guide-item p {
+    font-style: italic;
+}
+
+.section-guide img {
+    border-radius: 5px;
+    width: 300px;
+    height: 320px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activity-item img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #95809A;
+    padding: 45px 0;
+}
+
+.footer a {
+    color: #0D0106;
+    text-decoration: none;
+}
+
+.footer a:hover {
+   text-decoration: underline;
+    opacity: 0.7;
+}
